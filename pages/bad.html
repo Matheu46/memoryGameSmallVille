@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deception Lionel</title>
+  <style>
+    body {
+      background-image: url('../images/deceptionLionel.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      justify-content: end;
+    }
+
+    .again-button {
+      background: #ED151F;
+      padding: 15px;
+      text-align: center;
+      margin-bottom: 100px;
+      border-radius: 8px;
+      color: #FFF;
+      cursor: pointer;
+      font-size: 1em;
+      width: 100%;
+      max-width: 300px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <audio class="pathetic" src="../audio/pathetic.mp3"></audio>
+
+  <a href="game.html" class="again-button">Play again</a>
+
+  <script>
+    const pathetic = document.querySelector('.pathetic');
+    pathetic.play();
+  </script>
+</body>
+
+</html>
