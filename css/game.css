@@ -1,5 +1,6 @@
 main {
   display: flex;
+  overflow: hidden;
   flex-direction: column;
   width: 100%;
   background-image: url('../images/bg.jpg');
@@ -7,7 +8,7 @@ main {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  padding: 20px 20px 50px;
+  /* padding: 20px 20px 50px; */
 }
 
 header {
@@ -16,10 +17,10 @@ header {
   justify-content: space-between;
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.2em;
-  width: 100%;
+  width: 90%;
   max-width: 800px;
   padding: 30px;
-  margin: 0 0 30px;
+  margin-bottom: 30px;
   border-radius: 5px;
 }
 
@@ -27,7 +28,7 @@ header {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 15px;
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
